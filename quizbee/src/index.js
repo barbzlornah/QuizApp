@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import "./assets/style.css";
 import quizService from "./quizService";
-import questionBox from "./components/questionBox"; 
-import result from "./components/result";
+import QuestionBox from "./components/QuestionBox"; 
+import Result from "./components/Result";
 
 
 class QuizBee extends Component {

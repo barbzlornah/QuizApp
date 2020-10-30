@@ -1,9 +1,9 @@
 import React, { useState} from "react";
 
-const questionBox = ({ question, options, selected }) => {
+const QuestionBox = ({ question, options, selected }) => {
     const[answer, setAnswer] = useState(options);
     return(
-        <div className = "questionBox">
+        <div className = "QuestionBox">
             <div className = "question">{ question }</div>
             {answer.map((text,index) => (
                 <button
@@ -24,4 +24,4 @@ const questionBox = ({ question, options, selected }) => {
     );
 
 };
-export default questionBox;
+export default QuestionBox;
