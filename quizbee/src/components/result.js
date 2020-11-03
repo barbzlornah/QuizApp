@@ -1,6 +1,6 @@
 import React from "react";
 
-const result = ({score,playAgain}) => (
+const Result = ({score,playAgain}) => (
     <div className = "score-board">
         <div className = "score">You scored {score} /5 correct answers!</div>
         <button className="playBtn" onClick = {playAgain}>Play Again!</button>
@@ -8,4 +8,4 @@ const result = ({score,playAgain}) => (
     </div>
 );
 
-export default result;
+export default Result;

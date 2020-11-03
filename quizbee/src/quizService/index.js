@@ -1,4 +1,4 @@
-const qBank = [
+const questionBank = [
   {
     question:
       "Virgin Trains, Virgin Atlantic and Virgin Racing, are all companies owned by which famous entrepreneur?   ",
@@ -372,4 +372,4 @@ const qBank = [
 ];
 
 export default (n = 5) =>
-  Promise.resolve(qBank.sort(() => 0.5 - Math.random()).slice(0, n));
+  Promise.resolve(questionBank.sort(() => 0.5 - Math.random()).slice(0, n));
